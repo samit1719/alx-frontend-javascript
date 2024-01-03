@@ -3,10 +3,10 @@
 // console.log(`${taskFirst()} ${taskNext()}`);
 
 // 1
-// import taskBlock from './1-block-scoped.js';
+import taskBlock from './1-block-scoped.js';
 
-// console.log(taskBlock(true));
-// console.log(taskBlock(false));
+console.log(taskBlock(true));
+console.log(taskBlock(false));
 
 // 2
 // import getNeighborhoodsList from './2-arrow.js';
@@ -67,14 +67,14 @@
 // console.log(createEmployeesObject("Software", [ "Bob", "Sylvie" ]));
 
 // 12
-import createEmployeesObject from './11-createEmployeesObject.js';
-import createReportObject from './12-createReportObject.js';
+// import createEmployeesObject from './11-createEmployeesObject.js';
+// import createReportObject from './12-createReportObject.js';
 
-const employees = {
-    ...createEmployeesObject('engineering', ['Bob', 'Jane']),
-    ...createEmployeesObject('marketing', ['Sylvie'])
-};      
+// const employees = {
+//     ...createEmployeesObject('engineering', ['Bob', 'Jane']),
+//     ...createEmployeesObject('marketing', ['Sylvie'])
+// };      
 
-const report = createReportObject(employees);
-console.log(report.allEmployees);
-console.log(report.getNumberOfDepartments(report.allEmployees));
+// const report = createReportObject(employees);
+// console.log(report.allEmployees);
+// console.log(report.getNumberOfDepartments(report.allEmployees));
